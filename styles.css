@@ -58,9 +58,10 @@ body {
   transform: translateY(10px);
 }
 
-.odin-icon {
+.alpaca-icon {
   height: 8rem;
   width: auto;
+  filter: invert();
 }
 
 .photo-credit {

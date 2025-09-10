@@ -145,16 +145,16 @@ input:focus {
   outline: none;
 }
 
-input:focus::after {
-  width: 100%;
+input:valid {
+  border-bottom-color: green;
 }
 
-.input:invalid {
-  border-color: red;
+input:invalid:not(:focus):not(:placeholder-shown):not(.password) {
+  border-bottom-color: red;
 }
 
-.password {
-  border-color: red;
+input.password {
+  border-bottom-color: #f85b1a !important;
 }
 
 .submit-section {

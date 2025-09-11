@@ -112,6 +112,8 @@ body {
   box-shadow: 0 4px 6px rgba(255, 108, 10, 0.5);
   margin-bottom: 20px;
   box-sizing: border-box;
+  position: relative;
+  z-index: 2;
 }
 
 .form-row {
@@ -199,4 +201,5 @@ input.password {
 .alpaca-bottom img {
   width: 420px;
   height: auto;
+  z-index: 1;
 }
